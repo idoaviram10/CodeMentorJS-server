@@ -10,7 +10,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: 'http://localhost:3000',
+		origin: ['http://localhost:3000', 'https://fantastic-pony-3ffa80.netlify.app'],
 	},
 });
 
