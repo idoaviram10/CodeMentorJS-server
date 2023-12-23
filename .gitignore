@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+
+dist/
+
+.DS_Store
+Thumbs.db
+.vscode/
+
+*.log
+npm-debug.log*
+
+*.lock
+*.lock.json
